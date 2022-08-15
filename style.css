@@ -1,0 +1,146 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+main, html {
+background-color: #f1f1f1;
+padding-bottom: 90px;
+}
+
+#title {
+margin: 10px 0;
+text-align: center;
+}
+
+#formulario {
+width: 800px;
+margin: 0 auto;
+}
+
+#nome {
+border-radius: 5px;
+border: 2px solid #4a4c4e;
+padding-left: 10px;
+width: 600px;
+height: 30px;
+}
+
+#buscar {
+border-radius: 5px;
+border: 2px solid #4a4c4e;
+width: 150px;
+height: 30px;
+cursor: pointer;
+}
+
+#perfil-usuario {
+width: 800px;
+margin: 0 auto;
+}
+
+#usuario li {
+list-style-type: none;
+display: flex;
+}
+
+#usuario li figure {
+width: 200px;
+margin: 0 50px 0 0;
+}
+
+#usuario li figure img {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
+
+#usuario li div {
+width: 550px;
+}
+
+#usuario li div p {
+margin-top: 5px;
+font-size: 18px;
+}
+
+#usuario li div button {
+margin-top: 5px;
+background-color: #d9d9d9;
+border: none;
+text-transform: uppercase;
+font-size: 15px;
+padding: 2px 8px;
+color: #606060;
+cursor: pointer;
+height: 25px;
+}
+
+#repo-fav {
+width: 1300px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+}
+
+#repo-fav #repositorios {
+width: 800px;
+}
+#repo-fav #favoritos {
+width: 400px;
+}
+
+#lista-repositorios {
+height: 490px;
+overflow-y: scroll;
+}
+#lista-repositorios li {
+display: flex;
+flex-direction: column;
+margin: 20px auto;
+}
+
+
+#favoritos {
+margin-top: 20px;
+background-color: #f8f8f8;
+}
+
+#lista-favoritos {
+padding: 20px 20px;
+height: 490px;
+overflow-y: scroll;
+}
+#lista-favoritos li {
+list-style-type: none;
+display: flex;
+margin-bottom: 7px;
+border-bottom: 1px solid #ccc;
+padding-bottom: 7px;
+}
+#lista-favoritos li figure {
+margin-right: 10px;
+width: 100px;
+}
+#lista-favoritos li figure img {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+#lista-favoritos li div p {
+margin-top: 5px;
+font-size: 15px;
+}
+#lista-favoritos li div button {
+margin-top: 10px;
+background-color: #d9d9d9;
+border: none;
+text-transform: uppercase;
+font-size: 15px;
+padding: 2px 8px;
+color: #606060;
+cursor: pointer;
+height: 25px;
+}

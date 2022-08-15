@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consumindo API do GitHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main id="container">
+    <h1 id="title">GitHub API</h1>
+    <hr /> <br>
+
+    <section class="nome-usuario" id="formulario">
+      <form name="form">
+        <input type="text" placeholder="Nome de usuário" name="nome" id="nome" value="shioheii">
+        <input type="button" id="buscar" onCLick="buscarUsuario()" value="Buscar">
+      </form>
+    </section><br>
+
+    <section id="perfil-usuario">
+      <ul id="usuario"></ul>
+    </section>
+
+    <div id="repo-fav">
+      <section id="repositorios">
+        <br><h2>Repositórios</h2><hr>
+        <ul id="lista-repositorios"></ul>
+      </section>
+
+      <section id="favoritos">
+        <h2>Perfis favoritos</h2><hr>
+        <ul id="lista-favoritos"></ul>
+      </section>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
